@@ -6,10 +6,10 @@ import com.company.professions.People;
 
 public class Car {
     private final String model;
-    private String carClass;
-    private int weight;
-    private People driver;
-    private Engine engine;
+    private final String carClass;
+    private final int weight;
+    private final People driver;
+    private final Engine engine;
 
     public Car(String model, String carClass, int weight, Driver driver, Engine engine) {
         this.model = model;

@@ -1,7 +1,7 @@
 package com.company.professions;
 
 public abstract class People {
-    private int age;
+    private final int age;
     private final String fullName;
 
     public People(int age, String fullName) {
