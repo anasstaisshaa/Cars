@@ -5,7 +5,7 @@ import com.company.professions.Driver;
 import com.company.professions.People;
 
 public class Car {
-    private String model;
+    private final String model;
     private String carClass;
     private int weight;
     private People driver;

@@ -2,7 +2,7 @@ package com.company.professions;
 
 public abstract class People {
     private int age;
-    private String fullName;
+    private final String fullName;
 
     public People(int age, String fullName) {
         this.age = age;

@@ -4,7 +4,7 @@ import com.company.details.Engine;
 import com.company.professions.Driver;
 
 public class SportCar extends Car{
-    private double speed;
+    private final double speed;
     public SportCar(String model, String carClass, int weight, Driver driver, Engine engine, int speed) {
         super(model, carClass, weight, driver, engine);
         this.speed = speed;

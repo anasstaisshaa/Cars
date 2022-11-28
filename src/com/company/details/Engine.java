@@ -1,8 +1,8 @@
 package com.company.details;
 
 public class Engine {
-    private int power;
-    private String company;
+    private final int power;
+    private final String company;
 
     public Engine(int power, String company) {
         this.power = power;
